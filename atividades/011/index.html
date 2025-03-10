@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>tentar abrir esse site em varios dispositivos diferentes ou simplismente aumente e duminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="">
+    </picture>
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5.</p>
+    <audio src="midia/Iframe Cowboy Bebop - Opening _ Tank_ [EL-D9LrFJd4].mp3" controls></audio>
+     <p>mesma musica só que de uma forma mas freca de codar</p>
+     <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Iframe Cowboy Bebop - Opening _ Tank_ [EL-D9LrFJd4].mp3" type="audio/mpeg">
+     </audio>
+    <P>Melhor abertura de animes de todas :3</P>
+
+</body>
+</html>

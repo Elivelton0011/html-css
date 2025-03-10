@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links personalizados</title>
+    <style>
+a {
+    color: rgb(63, 155, 155);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: rgb(6, 255, 27);
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color:  rgb(35, 68, 68);
+}
+a::after {
+    content: "✦";
+    color: rgb(27, 50, 70);
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://cs50.dev/">link 01</a></li>
+        <li><a href="#">link 02</a></li>
+        <li><a href="#">link 03</a></li>
+    </ul>
+</body>
+</html>
