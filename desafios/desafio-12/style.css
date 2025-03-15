@@ -55,16 +55,33 @@ pre {
     font-family: var(--fonte3);
     font-size: 3vw;
 }
+pre > p {
+    padding-bottom: 1em;
+}
 .normal {
     background-color: white;
     color: black;
 }
-.imagem {
+.imagen {
     background-color: rgb(117, 112, 112);
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
 }
 .balao {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(27, 27, 27, 0.664);
+    background-color: rgba(27, 27, 27, 0.589);
+}
+
+#img01{
+background-image: url(imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+
+}
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
