@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php">
+
+        <p><label for="inome">Nome: <input type="text" name="nome" id="inome" required placeholder="Nome do aluno"></label></p>
+        <p>
+            <label for="inota">Nota: <input type="number" name="nota" id="inota" required min="0" max="10" step="0.1"></label>
+            <p>
+                <label for="idate">Data: <input type="date" name="data" id="idata" required></label>
+            </p>
+            <p><label for="ihora">Horario: <input type="time" name="hora" id="ihora"></label></p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </p>
+    </form>
+</body>
+</html>
