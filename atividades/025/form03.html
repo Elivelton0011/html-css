@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="cadastro.php">
+    <form action="cadastro.php"autocomplete="on" method="post">
 
-        <p><label for="inome">Nome: <input type="text" name="nome" id="inome" required placeholder="Nome do aluno"></label></p>
+        <p><label for="inome">Nome: <input type="text" name="nome" id="inome" required placeholder="Nome do aluno" autocomplete="username"></label></p>
         <p>
-            <label for="inota">Nota: <input type="number" name="nota" id="inota" required min="0" max="10" step="0.1"></label>
+            <label for="inota">Nota: <input type="number" name="nota" id="inota" required min="0" max="10" step="0.01"></label>
             <p>
                 <label for="idate">Data: <input type="date" name="data" id="idata" required></label>
             </p>
