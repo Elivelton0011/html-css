@@ -33,9 +33,6 @@ header > h1 {
     flex: 0 0 200px;
 }
 
-nav, h1 {
-    border: 1px dotted black;
-}
 header > nav > a {
     background-color: black;
     color: white;
@@ -56,4 +53,29 @@ main {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.500);
+}
+
+/* telas pequenas */
+
+@media  screen and (max-width: 600px) {
+   header, header > nav {
+    flex-flow: column nowrap;
+   }
+   header > h1 {
+    flex-basis: 10px;
+   }
+   header > nav {
+    width: 90vw;
+    text-align: center;
+   }
+}
+
+@media screen and (min-width:980px) {
+
+    main {
+       display: block;
+       width: 80vw;
+       margin: auto;
+       margin-top: 10px;
+    }
 }
